@@ -7,19 +7,21 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# **Muhammad Adnan**, M.Sc.
-##### *Curriculum Vitae* 
+# **Muhammad Adnan, M.Sc.**
+##### ***Curriculum Vitae*** 
 ''')
 
-image = Image.open('dp1.png')
+image = Image.open('Adnan3.png')
 st.image(image, width=230)
 
-st.markdown('## Summary', unsafe_allow_html=True)
+st.markdown('## **About Me**', unsafe_allow_html=True)
 st.info('''
 - A master's graduate in the field of molecular entomology, with vast experience in mosquito culturing and maintenance, and molecular characterization of newly identified
     viruses from field-collected mosquitoes. My long-term objective is to be a valuable member of the medical entomology community and aid in the eradication of the
     deadliest vector-borne illnesses. I am looking for a Ph.D. opportunity in order to deepen my knowledge in this specific area. 
-- I have broad experience in programming and machine learning tools.
+- I have broad experience in python programming as well as solid understanding of databases and data cleaning. I am confident that I have skills to turn complex data 
+    into clear and actionable insights. I have strong strong communication, analytical and organizational skills which I believe would be beneficial while working in an analytics role.
+    Skilled in data aggregation, calculations, data cleaning, data ethics, data wrangling, data analysis, exploratory data analysis, data visualization, and data storytelling. 
 ''')
 
 #####################
@@ -28,7 +30,7 @@ st.info('''
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #6120e3;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #009999;">
   <a class="navbar-brand" href="" target="_blank">Muhammad Adnan</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -38,26 +40,6 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#education">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Work Experience">Work Experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Trainings">Trainings</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Publications & Conferences">Publications</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Honors & Awards">Honors & Awards</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Digital & Programming skills">Digital & Programming skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Languages & Social Media">Languages & Social Media</a>
       </li>
     </ul>
   </div>
@@ -98,7 +80,7 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Education
+## **Education**
 ''')
 
 txt('**Research Student** (Insect Virology), *Kyushu University*, Japan',
@@ -179,7 +161,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Work Experience
+## **Work Experience**
 ''')
 
 txt('**B.Sc Internship**, Department of Entomology, Agriculture Research Institute, Pakistan',
@@ -199,7 +181,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Trainings 
+## **Trainings** 
 ''')
 
 txt('**Mosquito Competency Training**, Department of Medical Entomology (Mahidol University), Thailand',
@@ -232,7 +214,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Publications 
+## **Publications** 
 ''')
 
 txt('Effect of prey density the biology and functional response of Crysoperla carnea', '2017',)
@@ -254,7 +236,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Conferences 
+## **Conferences** 
 ''')
 
 txt('RSU International Research Conference (RSU 2020) Rangsit University - Bangkok - Thailand', '17/05/2020')
@@ -269,7 +251,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Honors & Awards
+## **Honors & Awards**
 ''')
 
 txt('Research Student Scholarship (**MEXT+JICA**) Japan – Kyushu University, Japan', '2020-2022')
@@ -294,7 +276,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Digital Skilla
+## **Digital Skills**
 ''')
 st.markdown('''
 - **Ms Office**: Word, Excel, Power Point, & Access.
@@ -304,7 +286,7 @@ st.markdown('''
 
 ######################
 st.markdown('''
-## Programming Skills
+## **Programming Skills**
 ''')
 st.markdown('''
 - **Python**: Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Streamlit, & Plotly.
@@ -317,7 +299,7 @@ st.markdown('''
 
 ######################
 st.markdown('''
-## Languages
+## **Languages**
 ''')
 txt('English', 'Fluent')
 txt('Urdu', 'Native')
@@ -325,12 +307,18 @@ txt('Urdu', 'Native')
 
 #####################
 st.markdown('''
-## Social Media
+## **Social Media**
 ''')
-txt2('LinkedIn', 'https://www.linkedin.com/in/muhammad-adnan-36204a12a/')
-txt2('Twitter', 'https://twitter.com/Adnanaadi93')
-txt2('ResearchGate', 'https://www.researchgate.net/profile/Muhammad-Adnan-29')
-txt2('GitHub', 'https://github.com/Adnanchughtai')
-txt2('Kaggle', 'https://www.kaggle.com/aadi94')
-txt2('Facebook', 'https://www.facebook.com/adnan.aadi.9279')
+st.markdown('''[Linkedin](https://www.linkedin.com/in/muhammad-adnan-36204a12a/)''')
+st.markdown('''[Twitter](https://twitter.com/Adnanaadi93)''')
+st.markdown('''[ResearchGate](https://www.researchgate.net/profile/Muhammad-Adnan-29)''')
+st.markdown('''[Github](https://github.com/Adnanchughtai)''')
+st.markdown('''[Kaggle](https://www.kaggle.com/aadi94)''')
+st.markdown('''[Facebook](https://www.facebook.com/adnan.aadi.9279)''')
 
+#####################
+st.markdown('''
+## **Streamlit apps**
+''')
+st.markdown('''[1. Web App](https://adnanchughtai-web-app-app-ql4110.streamlitapp.com/)''')
+st.markdown('''[2. Exploratory Data Analysis](https://adnanchughtai-exploratory-data-analysis--eda--05-eda-cmg4c9.streamlitapp.com/)''')
