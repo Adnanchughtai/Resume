@@ -7,8 +7,8 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# **Muhammad Adnan, M.Sc.**
-##### ***Curriculum Vitae*** 
+# **Muhammad Adnan**, M.Sc.
+##### *Curriculum Vitae* 
 ''')
 
 image = Image.open('Adnan3.png')
@@ -29,8 +29,9 @@ st.info('''
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
+
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #009999;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #6120e3;">
   <a class="navbar-brand" href="" target="_blank">Muhammad Adnan</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -40,11 +41,32 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Work Experience">Work Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Trainings">Trainings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Publications & Conferences">Publications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Honors & Awards">Honors & Awards</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Digital & Programming skills">Digital & Programming skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Languages & Social Media">Languages & Social Media</a>
       </li>
     </ul>
   </div>
 </nav>
 """, unsafe_allow_html=True)
+    
 
 #####################
 # Custom function for printing text
@@ -86,6 +108,7 @@ st.markdown('''
 txt('**Research Student** (Insect Virology), *Kyushu University*, Japan',
 '2020-2022')
 st.markdown('''
+- **Research Topic** `Identification, analysis and molecular characterization of insect specific viruses from the field collected mosquitoes`.
 - My initial interest in joining this lab was to expand my skill set to include a molecular approach to entomological studies. I was however captivated by the laboratories interest
     in the molecular mechanisms of arbovirus diseases. I was fascinated by the studies that aimed at understanding interactions between the arthropod vector and arboviruses or
     insect-specific viruses at the genomic level. The expression of this interest led to being assigned to a project that was aimed at determining the genomic factors relevant to the
@@ -107,7 +130,7 @@ st.markdown('''
             Baculovirus injection into silkworm larvae for recombinant protein expression
         - Plasmid amplification & bacterial culture
 
-- Research Topic ` Identification, analysis and molecular characterization of insect specific viruses from the field collected mosquitoes`.
+
 - Received MEXT & JICA Scholarship.
 ''')
 
@@ -116,7 +139,7 @@ txt('**Masters of Science** (Tropical Medicine (**Medical Entomology**), *Mahido
 st.markdown('''
 - GPA: `3.25`
 - Graduated with First Class Honors.
-- Thesis: `Comparison of effective dose with deterrence time for three botanicals oils by using Multi-Chamber-Blood-Feeding system against Aedes aegypti`.
+- **Thesis title**: `Comparison of effective dose with deterrence time for three botanicals oils by using Multi-Chamber-Blood-Feeding system against Aedes aegypti`.
 - **Major subjects**: Advanced Medical Entomology, Practical Entomology, Molecular Entomology, Immunology, Parasitology, Protozoology, Helminthology, Molecular Cellular
     Biology, Biostatistics, virology, bacteriology, etc.
 - **Master's Research Project**: Tests on repellents were typically performed on well-shaven animals, such as rabbits, dogs, guinea pigs, chicks, and sheep, in place of human subjects.
@@ -146,7 +169,7 @@ txt('**Bachelor of Science** (B.Sc. (Hons) Agriculture **Entomology**), *Gomal U
 st.markdown('''
 - GPA: `4.00`
 - Graduated with First Class Honors.
-- Thesis: `Effect of prey density on the biology and functional response of Crysoperla carnea`.
+- **Thesis title**: `Effect of prey density on the biology and functional response of Crysoperla carnea`.
 - **Major subjects**: Insect morphology, Insect behavior, Insect physiology, Insect anatomy, Insect pest crops, beneficial insects, integrated pest management, forest entomology,
     Insect immunology, etc.
 - **Bachelor's Research Project**: The effect of prey density on biology and functional response of green lacewing, *Crysoperla carnea* (Stephens) (Neuroptera: Chrysopidae) was studied in
@@ -309,12 +332,12 @@ txt('Urdu', 'Native')
 st.markdown('''
 ## **Social Media**
 ''')
-st.markdown('''[Linkedin](https://www.linkedin.com/in/muhammad-adnan-36204a12a/)''')
-st.markdown('''[Twitter](https://twitter.com/Adnanaadi93)''')
-st.markdown('''[ResearchGate](https://www.researchgate.net/profile/Muhammad-Adnan-29)''')
-st.markdown('''[Github](https://github.com/Adnanchughtai)''')
-st.markdown('''[Kaggle](https://www.kaggle.com/aadi94)''')
-st.markdown('''[Facebook](https://www.facebook.com/adnan.aadi.9279)''')
+txt2('LinkedIn', 'https://www.linkedin.com/in/muhammad-adnan-36204a12a/')
+txt2('Twitter', 'https://twitter.com/Adnanaadi93')
+txt2('ResearchGate', 'https://www.researchgate.net/profile/Muhammad-Adnan-29')
+txt2('GitHub', 'https://github.com/Adnanchughtai')
+txt2('Kaggle', 'https://www.kaggle.com/aadi94')
+txt2('Facebook', 'https://www.facebook.com/adnan.aadi.9279')
 
 #####################
 st.markdown('''
